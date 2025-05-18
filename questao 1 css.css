@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* fundo cinza claro */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 100px);
+  gap: 20px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+}
+
+.red {
+  background-color: #ff6f6f;
+}
+
+.blue {
+  background-color: #82c6ff;
+}
+
+.green {
+  background-color: #75ff75;
+}
